@@ -14,8 +14,18 @@ for(let i=0; i<muchos_peces.length; i++) {
     let siguiente_pez = muchos_peces[i]
     console.log("Pez siguiente: " + siguiente_pez)
 
-    // Modifica SOLAMENTE a partir de aquí
-}
+   if(siguiente_pez === "Nemo")
+   {
+    console.log("Has encontrado a Nemo! ")
+   
+} else(console.log(siguiente_pez +" no es Nemo"))
+
+   
+
+   }
+        
+        // Modifica SOLAMENTE a partir de aquí
+
 
 
 

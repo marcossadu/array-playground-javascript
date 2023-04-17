@@ -12,9 +12,10 @@
 
  /**
   * Fíjate sin embargo qué valor arroja aplicar indexOf cuando buscamos a "estrella". CONTESTA: ¿Por qué crees que sucede esto?
+  * porque estrella y estrella son diferentes y estrella al no estar en el array la pone como -1
   */
 
-  let pezPosicion2 = muchos_peces.indexOf("estrella")
+  let pezPosicion2 = muchos_peces.indexOf("Estrella")
   console.log("Estrella está en la posición: " + pezPosicion2)
 
   
